@@ -1,0 +1,6 @@
+﻿services:
+  stockapp.api:
+    image: stockapp.api
+    build:
+      context: .
+      dockerfile: StockApp.API/Dockerfile
